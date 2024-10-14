@@ -1,0 +1,1 @@
+[name] is now at [price]. buy it before it increases

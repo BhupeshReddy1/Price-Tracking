@@ -1,0 +1,49 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles4.css') }}">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Welcome to the Dashboard</h1>
+
+        <form action="/index" method="post" class="url-form">
+            <label for="url">Enter URL:</label>
+            <input type="text" id="url" name="url" required>
+            <br>
+            <label for="threshold">Enter Threshold:</label>
+            <input type="text" id="threshold" name="threshold" required>
+            <br>
+            <button type="submit">Add URL</button>
+        </form>
+
+        {% if urls %}
+            <div class="added-urls">
+                <h2>Added URLs:</h2>
+                <ul>
+                    {% for product_name, url, threshold_price in urls %}
+                        <li>
+                            <div class="url-info">
+                                <a href="{{ url }}" target="_blank">{{ product_name }}</a>
+                                - Threshold Price: ${{ threshold_price }}
+                                <form action="/remove_url" method="post" style="display: inline;">
+                                    <input type="hidden" name="url" value="{{ url }}">
+                                    <button type="submit">Remove</button>
+                                </form>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% else %}
+            <p>No URLs added yet.</p>
+        {% endif %}
+
+        <p><a href="/logout">Logout</a></p>
+    </div>
+</body>
+</html>

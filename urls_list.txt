@@ -1,0 +1,6 @@
+url1="https://www.amazon.com/Melissa-Doug-Scratch-Rainbow-Wooden/dp/B005K0B8WO?ref_=Oct_DLandingS_D_0312778f_1&th=1"
+
+url2="https://www.amazon.com/MacTavish-Legacy-MacTavishes-Stephen-Garrett/dp/B08FKN9FMP/ref=sr_1_1_sspa?crid=MGNE7R3YCYZ&keywords=books&qid=1700360673&s=amazon-devices&sprefix=books%2Camazon-devices%2C571&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+url3="https://www.amazon.com/BestOffice-Gaming-Executive-Headrest-Computer/dp/B07KJYY9BD/ref=sr_1_2_sspa?crid=34195RSTWBC36&keywords=gaming%2Bchair&qid=1700363899&sprefix=gaming%2Bchair%2Caps%2C389&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+url4="https://www.amazon.com/amazon-fire-tv-43-inch-omni-series-4k-mount-remote-cover-bundle/dp/B09BPBV7C2/ref=sr_1_6?crid=2MCXMUUDBRQHE&keywords=tv&qid=1700365424&s=amazon-devices&sprefix=tv%2Camazon-devices%2C307&sr=1-6"
+url5=""
